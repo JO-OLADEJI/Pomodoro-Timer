@@ -1,0 +1,25 @@
+{
+  "short_name": "Time Task",
+  "name": "Time Task - a productivity app",
+  "icons": [
+    {
+      "src": "ttIconSmall.png",
+      "type": "image/png",
+      "sizes": "80x90 40x45"
+    },
+    {
+      "src": "ttIcon190.png",
+      "type": "image/png",
+      "sizes": "180x190"
+    },
+    {
+      "src": "ttIcon500.png",
+      "type": "image/png",
+      "sizes": "475x500"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F87070",
+  "background_color": "#282C51"
+}

@@ -1,0 +1,19 @@
+.Session {
+  width: fit-content;
+  background-color: #151932;
+  border-radius: 5rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.section-button {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: .7rem;
+  border: none;
+  border-radius: 2rem;
+  margin: .3rem .5rem;
+  color: #F1F1F1;
+  font-size: .9rem;
+  font-weight: bold;
+  transition: background .5s ease;
+}

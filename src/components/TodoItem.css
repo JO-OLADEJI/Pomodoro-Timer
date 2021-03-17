@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.TodoItem {
+  margin: 1rem .5rem;
+  padding: .3rem;
+  color: #F1F1F1;
+  background-color: #282C51;
+  border-radius: .3rem;
+}
+
+input[type="checkbox"] {
+  margin-right: .5rem;
+}
+
+.exercise {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.time {
+  color: rgb(141, 141, 141);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+.apart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+}
+
+.fa-trash {
+  color: rgb(141, 141, 141);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color .5s ease;
+}
+
+.fa-trash:hover {
+  color: white;
+}
+
+.done-task {
+  color: rgb(141, 141, 141);
+  text-decoration: line-through;
+}

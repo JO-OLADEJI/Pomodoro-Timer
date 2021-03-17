@@ -1,0 +1,84 @@
+.Timer {
+  width: 22rem;
+  height: 22rem;
+  background-image: linear-gradient(135deg, #151932, #262A57);
+  box-shadow: 2rem 2rem 5rem 2rem #151932,
+              -2rem -2rem 5rem #32376e;
+  margin: auto;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  padding-top: 1rem;
+}
+
+.time-Box {
+  width: 20rem;
+  height: 20rem;
+  background-color: #151932;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.progress-ring {
+  transform: rotateZ(-90deg);
+}
+
+.progress-ring-circle {
+  transition: stroke-dashoffset .3s ease-out;
+}
+
+.counter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter h1 {
+  font-size: 5rem;
+  margin-top: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.counter button {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  color: rgb(146, 146, 146);
+  letter-spacing: .5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: color .3s ease;
+}
+
+.counter button:hover {
+  color: white;
+}
+
+.counter button:focus {
+  border: none;
+  outline: none;
+}
+
+.fade-button {
+  animation: fade 1s forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+  }
+}

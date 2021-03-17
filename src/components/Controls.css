@@ -1,0 +1,22 @@
+.fa-tasks {
+  margin: .5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: rgb(141, 141, 141);
+  transition: color .5s ease;
+}
+
+.fa-tasks:hover {
+  color: #F1F1F1;
+}
+
+.orange-theme:hover {
+  color: #F87070;
+}
+
+
+@media (max-width: 850px) {
+  .Controls i {
+    display: none;
+  }
+}

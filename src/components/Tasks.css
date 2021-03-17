@@ -1,0 +1,78 @@
+.Tasks {
+  width: 50vw;
+  height: 90vh;
+  border-left: 2px solid #F87070;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.items {
+  height: 25rem;
+  width: 25rem;
+  background-color: #151932;
+  margin: 0 auto 1rem auto;
+  overflow-y: scroll;
+  box-shadow: 2rem 2rem 5rem #32376e;
+}
+
+.add-task {
+  width: 25rem;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.add-task button {
+  background: transparent;
+  border: none;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #f8707075;
+  background-color: transparent;
+  width: 85%;
+  height: 3rem;
+  color: rgb(206, 206, 206);
+  font-family: 'Josefin Sans', sans-serif;
+  margin-right: 1rem;
+  transition: border .5s ease;
+  font-size: 1.2rem;
+}
+
+input[type="text"]:focus {
+  border-bottom: 2px solid #F87070;
+  outline: none;
+}
+
+.fa-plus-circle {
+  font-size: 2.5rem;
+  color: #f8707075;
+  transition: color .5s ease;
+  cursor: pointer;
+}
+
+.fa-plus-circle:hover {
+  color: #F87070;
+}
+
+
+
+@media (max-width: 850px) {
+  .Tasks {
+    width: 100vw;
+    height: 100vh;
+    border-left: none;
+    margin-top: 15vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .items {
+    width: 20rem;
+  }
+  .add-task {
+    width: 20rem;
+  }
+}
